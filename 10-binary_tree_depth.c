@@ -6,10 +6,6 @@
  *
  * Return: the depth of a node
  */
-size_t min(size_t a, size_t b)
-{
-	return ((a < b) ? a + 1 : b + 1);
-}
 
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
