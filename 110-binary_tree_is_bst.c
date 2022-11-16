@@ -2,7 +2,11 @@
 
 
 /**
+ * lesser - check if values i tree a less than val
+ * @tree: the tree to be checked
+ * @val: the value to compare against
  *
+ * Return: 1 if true, otherwise 0
  */
 
 int lesser(binary_tree_t *tree, int val)
@@ -17,7 +21,11 @@ int lesser(binary_tree_t *tree, int val)
 }
 
 /**
+ * greater - check if the values in tree are greater than val
+ * @tree: the tree to be checked
+ * @val: the value to compare with
  *
+ * Return: 1 if true, otherwise 0
  */
 
 int greater(binary_tree_t *tree, int val)
@@ -34,8 +42,6 @@ int greater(binary_tree_t *tree, int val)
 /**
  * is_bst_util - helper function
  * @tree: root node for tree to check if it is bst
- * @min_val: the minimum value expected in the left side of bst
- * @max_val: the maximum value expected in the right side of bst
  *
  * Return: 1 if tree is bst, 0 otherwise
  */
